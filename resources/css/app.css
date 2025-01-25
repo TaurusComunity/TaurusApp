@@ -1,3 +1,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Outfit:wght@100..900&display=swap");
+
+:root{
+    /* UNIVERSAL */
+    --mono_blanco:#F5EFFF;
+    --mono_negro:#060809;
+    --bg_empty:#1F1D2B;
+
+    /* SEMAFORO */
+    --verde:#1BCC75;
+    --amarillo:#FFA823;
+    --rojo:#FF3131;
+
+    /* SECUNDARIO */
+    --secundary:#1A2130;
+    --secundary_light:#A5B8D4;
+
+    /* MACHINE APP */
+    --primary_machine:#56Ab98;
+    --secundary_machine:#87CBB9;
+
+    /* GURU APP */
+    --primary_guru:#C58940;
+    --secundary_guru:#E4CDA4;
+
+    /* SHOPPER APP */
+    --primary_shopper:#3D4AEE;
+    --secundary_shopper:#87A2FF;
+
+    /* ESSENTIALS APP */
+    --primary_essentials:#FF3131;
+    --secundary_essentials:#FF9D9D;
+
+    /* SMART APP */
+    --primary_smart:#9A48D5;
+    --secundary_smart:#DBBCF6;
+}
+
+
+* {
+  font-family: "Outfit", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.number {
+  font-family: "Lexend", serif;
+}

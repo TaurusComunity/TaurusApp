@@ -21,24 +21,29 @@
     --secundary_light:#A5B8D4;
 
     /* MACHINE APP */
-    --primary_machine:#56Ab98;
-    --secundary_machine:#87CBB9;
+    --primary_machine:#57CC99;
+    --secundary_machine:#C7F9CC;
+    --complement_machine:#80ED99;
 
     /* GURU APP */
-    --primary_guru:#C58940;
-    --secundary_guru:#E4CDA4;
+    --primary_guru:#BB9457;
+    --secundary_guru:#FFE6A7;
+    --complement_guru:#99582A;
 
     /* SHOPPER APP */
     --primary_shopper:#3D4AEE;
     --secundary_shopper:#87A2FF;
+    --complement_shopper:#8E9AAF;
 
     /* ESSENTIALS APP */
-    --primary_essentials:#FF3131;
-    --secundary_essentials:#FF9D9D;
+    --primary_essentials:#FF4D6D;
+    --secundary_essentials:#FFB3C1;
+    --complement_essentials:#FF758F;
 
     /* SMART APP */
-    --primary_smart:#9A48D5;
-    --secundary_smart:#DBBCF6;
+    --primary_smart:#DEE2FF;
+    --secundary_smart:#FEEAFA;
+    --complement_smart:#EFD3D7;
 }
 
 
@@ -48,8 +53,12 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  background: var(--mono_negro);
+  color:var(--mono_blanco);
 }
 
 .number {
   font-family: "Lexend", serif;
 }
+
+

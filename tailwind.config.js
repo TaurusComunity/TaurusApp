@@ -28,28 +28,33 @@ export default {
                   rojo: '#FF3131',
                 },
                 secundary: {
-                  DEFAULT: '#1A2130',
+                  default: '#1A2130',
                   light: '#A5B8D4',
                 },
                 machine: {
-                  primary: '#56Ab98',
-                  secundary: '#87CBB9',
+                  primary: '#57CC99',
+                  secundary: '#C7F9CC',
+                  complement: '#80ED99'
                 },
                 guru: {
-                  primary: '#C58940',
-                  secundary: '#E4CDA4',
+                  primary: '#BB9457',
+                  secundary: '#FFE6A7',
+                  complement: '#99582A'
                 },
                 shopper: {
                   primary: '#3D4AEE',
                   secundary: '#87A2FF',
+                  complement: '#8E9AAF'
                 },
                 essentials: {
-                  primary: '#FF3131',
-                  secundary: '#FF9D9D',
+                  primary: '#FF4D6D',
+                  secundary: '#FFB3C1',
+                  complement: '#FF758F'
                 },
                 smart: {
-                  primary: '#9A48D5',
-                  secundary: '#DBBCF6',
+                  primary: '#DEE2FF',
+                  secundary: '#FEEAFA',
+                  complement: '#EFD3D7'
                 },
               },
         },

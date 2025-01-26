@@ -11,6 +11,9 @@ export default {
     ],
     theme: {
         extend: {
+          boxShadow: {
+            'shadow-essentials': '0px 8px 28px rgba(255, 77, 109, 1)',
+          },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Taurus App</title>
+    <title>Dashboard</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -53,10 +53,10 @@
                     </div>
                 </div>
                 <div>
-                    <label for="usuario" class="">Contraseña:</label>
+                    <label for="contasenia" class="">Contraseña:</label>
                     <div
                         class="input border border-secundary-light w-full rounded-[8px] flex justify-between items-center p-2 my-[5px]">
-                        <input type="text" name="usuario" id="usuario" class='w-full focus:outline-none'
+                        <input type="password" name="contasenia" id="contasenia" class='w-full focus:outline-none'
                             placeholder="Tu contraseña: ********">
                         <span class="material-symbols-outlined text-secundary-light">encrypted</span>
                     </div>
@@ -69,7 +69,7 @@
                 </div>
             </form>
             <div class='w-full my-[30px] '>
-                    <p class='text-center'>No tienes una cuenta con nosotros, <a href="contacto">contactanos</a></p>
+                    <p class='text-center'>No tienes una cuenta con nosotros, <a href="contacto" class='font-bold text-essentials-primary'>contactanos</a>.</p>
             </div>
             <div class='w-full my-[30px] '>
                     <p class='text-center text-[12px] text-essentials-primary'>Version Deimos 1.0.0</p>
